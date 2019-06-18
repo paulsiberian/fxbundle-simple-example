@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" minHeight="200.0" minWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.github.paulsiberian.example.fxbundle.SecondaryController">
+    <children>
+        <Label text="%label.secondary-view" />
+        <Button onAction="#switchToPrimary" text="%button.switch-to-primary-view" />
+        <Pane minHeight="30" />
+        <Button onAction="#switchLocale" text="%button.switch-locale" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
